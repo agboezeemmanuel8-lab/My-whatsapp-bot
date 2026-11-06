@@ -7,7 +7,7 @@ async function start() {
 
   if (!sock.authState.creds.registered) {
     const number = '2347054257462'
-    const code = await sock.requestPairingCode(number)
+     const code = await sock.requestPairingCode(number)
     console.log('PAIRING CODE:', code)
   }
 
