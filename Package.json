@@ -1,0 +1,10 @@
+{
+  "name": "my-whatsapp-bot",
+  "type": "module",
+  "scripts": { "start": "node index.js" },
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "@hapi/boom": "latest",
+    "pino": "latest"
+  }
+}
